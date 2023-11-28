@@ -57,7 +57,7 @@ Tailwind CSSのライセンスは、Tailwind CSSフォルダの下にありま�
   -  php -r 'echo password_hash("ここに管理者に割り当てたいパスワードを入力", PASSWORD_BCRYPT), PHP_EOL;'
 - /tCloud/login.phpの8行目をIPアドレスつきのusers.jsonのファイルのパスで置き換えます。
 
-users.jsonの八行目の例
+users.jsonの8行目の例
 ```php
 <?php
 
