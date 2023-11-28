@@ -8,7 +8,10 @@ tCloud is an open source secure file management system written in PHP.
 
 Please use it according to the included MIT license.
 
-Also, the source code is compressed into source.zip, so please unzip it before use.
+The release ZIP file contains the following contents:
+source.zip (1)
+README.md (1)
+license.txt (2)
 
 Please treat me well.
 
@@ -38,8 +41,10 @@ tCloudは、PHPで作られた、オープンソースの安全なファイル�
 
 同梱されているMITライセンスに従って使用してください。
 
-また、ソースコードはsource.zipに圧縮してありますので、
-解凍してお使いください。
+リリースのZIPファイル内には以下の内容物があります。
+source.zip (1つ)
+README.md (1つ)
+license.txt (2つ)
 
 よろしくお願いします。
 
