@@ -1,4 +1,27 @@
+# tCloud
+Open source secure file management system
 
+## English
+Hello. Thank you for discovering tCloud for Business.
+
+tCloud is an open source secure file management system written in PHP.
+
+Please use it according to the included MIT license.
+
+Also, the source code is compressed into source.zip, so please unzip it before use.
+
+Please treat me well.
+
+Test environment: macOS 14 & Apache/2.4.58 (Unix) & PHP 8.2.12 (cli)
+
+This software was created using Tailwind CSS. The Tailwind CSS license is located under the Tailwind CSS folder.
+
+Before use, you must make the following changes:
+
+- Generate and replace the admin password in users.json in the tCloud folder in the source code using the command.
+  - php -r 'echo password_hash("Enter the password you want to assign to the administrator here", PASSWORD_BCRYPT), PHP_EOL;' 
+
+## 日本語
 こんにちは。tCloud for Businessを発見していただきありがとうございます。
 
 tCloudは、PHPで作られた、オープンソースの安全なファイル管理システムです。
