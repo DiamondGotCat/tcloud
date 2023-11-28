@@ -29,7 +29,7 @@ Example of the 8th line of users.json:
 ```php
 <?php
 
-$json = file_get_contents('http://192.168.1.100/tCloud/users.json'); # Example
+$json = file_get_contents('http://example.com/tCloud/users.json'); # Example
 
 ?>
 ```
@@ -66,7 +66,7 @@ users.jsonの8行目の例:
 ```php
 <?php
 
-$json = file_get_contents('http://192.168.1.100/tCloud/users.json'); # Example
+$json = file_get_contents('http://example.com/tCloud/users.json'); # Example
 
 ?>
 ```
