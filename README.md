@@ -23,7 +23,7 @@ Before use, you must make the following changes:
 
 - Generate and replace the admin password in users.json in the tCloud folder in the source code using the command.
   - php -r 'echo password_hash("Enter the password you want to assign to the administrator here", PASSWORD_BCRYPT), PHP_EOL;' 
-- Replace line 8 of /tCloud/login.php with the path to the users.json file with the IP address.
+- Replace line 8 of /tCloud/login.php with the path to the users.json file.
 
 Example of the 8th line of users.json:
 ```php
@@ -60,7 +60,7 @@ Tailwind CSSのライセンスは、Tailwind CSSフォルダの下にありま�
 使用する前に、以下の変更を行う必要があります。
 - ソースコード内のtCloudフォルダ内のusers.jsonのadminのpasswordを、コマンドで生成し、置き換えます。
   -  php -r 'echo password_hash("ここに管理者に割り当てたいパスワードを入力", PASSWORD_BCRYPT), PHP_EOL;'
-- /tCloud/login.phpの8行目をIPアドレスつきのusers.jsonのファイルのパスで置き換えます。
+- /tCloud/login.phpの8行目をusers.jsonファイルへのパスに置き換えます。
 
 users.jsonの8行目の例:
 ```php
