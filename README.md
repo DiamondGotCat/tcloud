@@ -1,25 +1,73 @@
 # tCloud
 Open source secure file storage system
 
-## What is tCloud?
-tCloud is a file server that runs on PHP for macOS.
+## English
+Hello. Thank you for discovering tCloud for Business.
 
-Since it is written in basic PHP, it is possible to respond to changes.
+tCloud is an open source secure file management system written in PHP.
 
-Also, since Tailwind CSS is used, the design can be easily realized.
+Please use it according to the included MIT license.
 
-## Authenticate
-Authenticate using PHP's password_verify
+The release ZIP file contains the following contents:
+source (1)
+README.md (1)
+license.txt (2)
 
-## Password hashing method
-It uses the CRYPT_BLOWFISH algorithm.
+Please treat me well.
 
-## Security
-We recommend using this system only within your network.
+Test environment: macOS 14 & Apache/2.4.58 (Unix) & PHP 8.2.12 (cli)
 
-We do not recommend opening ports on your router.
+This software was created using Tailwind CSS. The Tailwind CSS license is located under the Tailwind CSS folder.
 
-## License
-It's MIT License
+Before use, you must make the following changes:
 
-Please read LICENSE.txt
+- Generate and replace the admin password in users.json in the tCloud folder in the source code using the command.
+  - php -r 'echo password_hash("Enter the password you want to assign to the administrator here", PASSWORD_BCRYPT), PHP_EOL;'
+- Replace line 8 of /tCloud/login.php with the path to the users.json file.
+
+Example of the 8th line of users.json:
+```php
+<?php
+
+$json = file_get_contents('http://example.com/tCloud/users.json'); # Example
+
+?>
+```
+
+## 日本語
+こんにちは。tCloud for Businessを発見していただきありがとうございます。
+
+tCloudは、PHPで作られた、オープンソースの安全なファイルストレージシステムです。
+
+同梱されているMITライセンスに従って使用してください。
+
+リリースのZIPファイル内には以下の内容物があります。
+source.zip (1つ)
+README.md (1つ)
+license.txt (2つ)
+
+よろしくお願いします。
+
+テスト環境:
+macOS 14 &
+Apache/2.4.58 (Unix) &
+PHP 8.2.12 (cli)
+
+
+このソフトウェアはTailwind CSSを用いて制作されました。
+Tailwind CSSのライセンスは、Tailwind CSSフォルダの下にあります。
+
+使用する前に、以下の変更を行う必要があります。
+- ソースコード内のtCloudフォルダ内のusers.jsonのadminのpasswordを、コマンドで生成し、置き換えます。
+  -  php -r 'echo password_hash("ここに管理者に割り当てたいパスワードを入力", PASSWORD_BCRYPT), PHP_EOL;'
+- /tCloud/login.phpの8行目をusers.jsonファイルへのパスに置き換えます。
+
+users.jsonの8行目の例:
+
+```php
+<?php
+
+$json = file_get_contents('http://example.com/tCloud/users.json'); # Example
+
+?>
+```
