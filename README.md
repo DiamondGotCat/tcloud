@@ -15,11 +15,9 @@ Authenticate using PHP's password_verify
 It uses the CRYPT_BLOWFISH algorithm.
 
 ## Security
-Passwords are recorded as password hashes, so
+We recommend using this system only within your network.
 
-You can rest assured even if your JSON file is leaked.
-
-Please do not create an issue even if a security vulnerability is identified.
+We do not recommend opening ports on your router.
 
 ## License
 It's MIT License
