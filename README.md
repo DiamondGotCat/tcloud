@@ -13,5 +13,3 @@ Therefore, we are currently updating only tCloud Next.
 tCloud Next is managed differently, so
 
 Please note that migrating from tCloud is difficult.
-
-(tCloud Next is currently under construction. Please wait.)
