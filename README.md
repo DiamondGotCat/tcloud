@@ -5,7 +5,7 @@ Open source secure file storage system
 This project is intended for use in an internal network.
 We do not recommend disclosing it outside your company.
 
-## What is tCloud Thunder?
+## What is tCloud Next?
 tCloud Next is a more secure tCloud.
 
 Therefore, we are currently updating only tCloud Next.
