@@ -75,8 +75,7 @@
             // データベース接続を閉じる
             $conn->close();
 
-
-            header('Content-Type: text/html; charset=UTF-8');
+            header('Location: /add_dir.php?dirname=' . $_POST['id']);
 
 
         ?>
