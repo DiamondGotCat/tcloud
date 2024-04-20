@@ -1,6 +1,3 @@
-https://github.com/DiamondGotCat/tcloud/assets/124330624/3fae836a-6e1a-4ac9-a24c-ca9710972500
-
-
 # tCloud
 Open source secure file storage system
 
